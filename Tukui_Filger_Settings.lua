@@ -334,6 +334,10 @@ ns.Filger_Spells = {
 			{ spellID = 12975, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Shield Wall / Schildwall
 			{ spellID = 871, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Deadly Calm
+			{ spellID = 85730, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Inner Rage
+			{ spellID = 1134, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
@@ -370,6 +374,8 @@ ns.Filger_Spells = {
 			{ spellID = 99, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 			-- Curse of Weakness / Fluch der Schwäche (Warlock)
 			{ spellID = 702, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
+			-- Colossus Smash
+			{ spellID = 86346, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 		},
 	},
 	["SHAMAN"] = {
@@ -503,6 +509,8 @@ ns.Filger_Spells = {
 			{ spellID = 31842, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Inquisition / Inquisition
 			{ spellID = 84963, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Avenging Wrath
+			{ spellID = 31884, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
