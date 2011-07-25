@@ -811,6 +811,8 @@ ns.Filger_Spells = {
 			{ spellID = 57934, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Turn the Tables / Den Spieß umdrehen
 			{ spellID = 51627, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Killing Spree
+			{ spellID = 51690, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
@@ -845,6 +847,16 @@ ns.Filger_Spells = {
 			{ spellID = 3409, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 			-- Wound Poison / Wundgift
 			{ spellID = 13218, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
+			-- Find Weakness
+			{ spellID = 91023, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
+			-- Hemorrhage
+			{ spellID = 16511, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
+			-- Glyph of Hemorrhage 
+			{ spellID = 56807, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
+			-- Vendetta
+			{ spellID = 79140, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
+			-- Gouge / Solarplexus
+			{ spellID = 1776, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 		},
 		{
 			Name = "F/DEBUFF_BAR",
@@ -858,6 +870,8 @@ ns.Filger_Spells = {
 			{ spellID = 2094, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
 			-- Sap / Kopfnuss
 			{ spellID = 6770, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
+			-- Gouge / Solarplexus
+			{ spellID = 1776, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
 		},
 	},
 	["DEATHKNIGHT"] = {
