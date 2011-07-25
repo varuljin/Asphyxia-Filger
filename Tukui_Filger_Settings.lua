@@ -1024,6 +1024,10 @@ ns.Filger_Spells = {
 			{ spellID = 54758, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Synapse Springs / Synapsenfedern
 			{ spellID = 82175, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Nitro Boots ( or should I say Belt? )
+			{ spellID = 54861, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Grounded Plasma Shield 
+			{ spellID = 82626, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			
 
 		-- Item Enchants - Tailoring
