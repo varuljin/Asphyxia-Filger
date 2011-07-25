@@ -1383,6 +1383,8 @@ ns.Filger_Spells = {
 			{ spellID = 99476, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Fixate (Beth'tilac Heroic)
 			{ spellID = 99526, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
+			-- Volatile Poison (Beth'tilac Heroic)
+			{ spellID = 99278, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Eruption (Lord Rhyolith)
 			{ spellID = 98492, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Molten Feather (Alysrazor)
