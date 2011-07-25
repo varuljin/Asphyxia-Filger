@@ -990,6 +990,8 @@ ns.Filger_Spells = {
 			{ spellID = 96911, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Celerity / Shard of Woe Heroic
 			{ spellID = 91173, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Dominance / Ruthless Gladiator's Insignia of Dominance
+			{ spellID = 99742, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 
 
 
