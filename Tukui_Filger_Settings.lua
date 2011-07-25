@@ -501,6 +501,8 @@ ns.Filger_Spells = {
 			{ spellID = 60062, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Divine Illumination / Göttliche Gunst
 			{ spellID = 31842, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Inquisition / Inquisition
+			{ spellID = 84963, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
