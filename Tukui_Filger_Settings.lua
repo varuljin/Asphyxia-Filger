@@ -559,7 +559,7 @@ ns.Filger_Spells = {
 			-- Fear Ward / Furchtzauberschutz
 			{ spellID = 6346, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Inner Fire / Inneres Feuer
-			{ spellID = 588, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- { spellID = 588, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Inner Will / Innerer Wille
 			{ spellID = 73413, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Archangel / Erzengel
@@ -1054,6 +1054,8 @@ ns.Filger_Spells = {
 			{ spellID = 80353, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
 			-- Ancient Hysteria / Uralte Hysterie (Core Hound)
 			{ spellID = 90355, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
+			-- Lightwell Renew
+			{ spellID = 7001, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
 		},
 		{
 			Name = "PVE/PVP_P_DEBUFF_ICON",
