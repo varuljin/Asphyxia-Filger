@@ -165,7 +165,7 @@ ns.Filger_Spells = {
 			IconSide = "RIGHT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "RIGHT", UIParent, "CENTER", -198, 100 },
+			setPoint = { "RIGHT", UIParent, "CENTER", -198, 140 },
 
 			-- Swiftmend / Rasche Heilung
 			{ spellID = 18562, size = 32, barWidth = 200, filter = "CD" },
@@ -1363,6 +1363,8 @@ ns.Filger_Spells = {
 			{ spellID = 82705, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Shadow Conductor / Schattenleiter (Nefarian)
 			{ spellID = 92053, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
+			-- Stolen Power
+			{ spellID = 80627, size = 72, unitId = "player", caster = "all", filter = "BUFF" },
 
 		-- Throne of Four Winds
 			-- Wind Chill / Windkühle (Conclave of Wind)
