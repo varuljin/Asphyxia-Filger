@@ -149,7 +149,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Hibernate / Winterschlaf
 			{ spellID = 2637, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -239,7 +239,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Wyvern Sting / Wyverngift
 			{ spellID = 19386, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -302,7 +302,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Polymorph / Verwandlung
 			{ spellID = 118, size = 32, barWidth = 191, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -455,7 +455,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Hex / Verhexen
 			{ spellID = 51514, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -530,7 +530,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Hammer of Justice / Hammer der Gerechtigkeit
 			{ spellID = 853, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -777,7 +777,7 @@ ns.Filger_Spells = {
 			IconSide = "RIGHT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Fear / Furcht
 			{ spellID = 5782, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
@@ -864,7 +864,7 @@ ns.Filger_Spells = {
 			IconSide = "LEFT",
 			Interval = 4,
 			Mode = "BAR",
-			setPoint = { "LEFT", UIParent, "CENTER", 198, 100 },
+			setPoint = { "LEFT", UIParent, "CENTER", 198, 140 },
 
 			-- Blind / Blenden
 			{ spellID = 2094, size = 32, barWidth = 200, unitId = "focus", caster = "all", filter = "DEBUFF" },
