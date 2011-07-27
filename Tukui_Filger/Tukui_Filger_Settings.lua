@@ -1074,6 +1074,8 @@ ns.Filger_Spells = {
 			{ spellID = 90355, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
 			-- Lightwell Renew
 			{ spellID = 7001, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
+			-- Hand of Salvation
+			{ spellID = 1038, size = 32, unitId = "player", caster = "all", filter = "BUFF" },
 		},
 		{
 			Name = "PVE/PVP_P_DEBUFF_ICON",
