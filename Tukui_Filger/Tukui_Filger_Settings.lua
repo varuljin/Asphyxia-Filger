@@ -104,6 +104,16 @@ ns.Filger_Spells = {
 			{ spellID = 48391, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Lunar Shower / Mondregen
 			{ spellID = 81192, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Predetor's Swiftness
+			{ spellID = 69369, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Stampede
+			{ spellID = 81022, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Berserk
+			{ spellID = 50334, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Tiger's Fury
+			{ spellID = 5217, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Glyph of Barkskin
+			{ spellID = 63058, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
@@ -142,6 +152,10 @@ ns.Filger_Spells = {
 			{ spellID = 48506, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 			-- Faerie Fire
 			{ spellID = 770, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
+			-- Infected Wounds
+			{ spellID = 58180, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
+			-- Pounce 
+			{ spellID = 9005, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 		},
 		{
 			Name = "F/DEBUFF_BAR",
@@ -1014,9 +1028,36 @@ ns.Filger_Spells = {
 			{ spellID = 96911, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Celerity / Shard of Woe Heroic
 			{ spellID = 91173, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			
+		-- PvP Trinkets
 			-- Surge of Dominance / Ruthless Gladiator's Insignia of Dominance
 			{ spellID = 99742, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
-
+			-- Call of Conquest / Ruthless Gladiator's Badge of Conquest
+			{ spellID = 99739, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Call of Dominance / Ruthless Gladiator's Badge of Dominance
+			{ spellID = 99741, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Call of Victory / Ruthless Gladiator's Badge of Victory
+			{ spellID = 99740, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Tremendous Fortitude / Battlemaster Trinket S10-384
+			{ spellID = 99737, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Conquest / Ruthless Gladiator's Insignia of Conquest
+			{ spellID = 99748, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Victory / Ruthless Gladiator's Insignia of Victory
+			{ spellID = 99746, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Call of Conquest / Vicious Gladiator's Badge of Conquest
+			{ spellID = 99711, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Call of Dominance / Vicious Gladiator's Badge of Dominance
+			{ spellID = 99712, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Call of Victory / Vicious Gladiator's Badge of Victory
+			{ spellID = 99713, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Tremendous Fortitude / Battlemaster Trinket S10-371
+			{ spellID = 99714, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Conquest / Vicious Gladiator's Insignia of Conquest
+			{ spellID = 99717, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Dominance / Vicious Gladiator's Insignia of Dominance
+			{ spellID = 99719, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Surge of Victory / Vicious Gladiator's Insignia of Victory
+			{ spellID = 99721, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 
 
 		-- Item Enchants - Engineering
