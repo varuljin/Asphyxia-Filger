@@ -384,8 +384,6 @@ ns.Filger_Spells = {
 			{ spellID = 8647, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 			-- Infected Wounds / Infizierte Wunden (Druid)
 			{ spellID = 48484, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
-			-- Frost Fever / Frostfieber (Death Knight)
-			{ spellID = 55095, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 			-- Demoralizing Roar / Demoralisierendes Gebrüll (Druid)
 			{ spellID = 99, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 			-- Curse of Weakness / Fluch der Schwäche (Warlock)
