@@ -384,6 +384,8 @@ ns.Filger_Spells = {
 			{ spellID = 8647, size = 36, unitId = "target", caster = "player", filter = "DEBUFF" },
 			-- Infected Wounds / Infizierte Wunden (Druid)
 			{ spellID = 48484, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
+			-- Frost Fever / Frostfieber (Death Knight)
+			{ spellID = 55095, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 			-- Demoralizing Roar / Demoralisierendes Gebrüll (Druid)
 			{ spellID = 99, size = 36, unitId = "target", caster = "all", filter = "DEBUFF" },
 			-- Curse of Weakness / Fluch der Schwäche (Warlock)
@@ -827,6 +829,12 @@ ns.Filger_Spells = {
 			{ spellID = 51627, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Killing Spree
 			{ spellID = 51690, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Shallow Insight
+			{ spellID = 84745, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Moderate Insight
+			{ spellID = 84746, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Deep Insight
+			{ spellID = 84747, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
@@ -896,6 +904,11 @@ ns.Filger_Spells = {
 			Mode = "ICON",
 			setPoint = { "RIGHT", FilgerPlayerBuffs, "RIGHT", 0, 0},
 			
+			
+			-- Horn of Winter
+			{ spellID = 57330, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Smoldering Rune
+			{ spellID = 98971, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Dark Succor
 			{ spellID = 101568, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Shadow Infusion / Schatteninfusion
@@ -976,6 +989,8 @@ ns.Filger_Spells = {
 			{ spellID = 68992, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			
 		-- Trinket Procs
+			-- Rageheart  / Heart of Rage
+			{ spellID = 92345, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Cleansing Tears / Läuternde Tränen (Tear of Blood)
 			{ spellID = 91139, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Fury of the Five Flights / Furor der fünf Schwärme
@@ -1028,6 +1043,9 @@ ns.Filger_Spells = {
 			{ spellID = 96911, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Celerity / Shard of Woe Heroic
 			{ spellID = 91173, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Weight of a Feather (Scales of Life)
+			{ spellID = 96879, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			{ spellID = 97117, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			
 		-- PvP Trinkets
 			-- Surge of Dominance / Ruthless Gladiator's Insignia of Dominance
@@ -1099,6 +1117,8 @@ ns.Filger_Spells = {
 			{ spellID = 79475, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Volcanic Power / Geschwindigkeit - Volcanic Potion 
 			{ spellID = 79476, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Golemstrength - Golemblood Potion
+			{ spellID = 79634, size = 32, unitId = "player", caster = "player", filter = "BUFF" },
 
 		-- External Buffs
 			-- Tricks of the Trade / Schurkenhandel
@@ -1386,6 +1406,12 @@ ns.Filger_Spells = {
 			{ spellID = 82170, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Corruption: Sickness / Verderbnis: Krankheit (Cho'gall)
 			{ spellID = 93200, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
+			-- Gravity Core
+			{ spellID = 92075, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
+			-- Static Overload
+			{ spellID = 92067, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
+			-- Frost Beacon
+			{ spellID = 92307, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 
 		-- Blackwing Descent
 			-- Constricting Chains / Fesselnde Ketten (Magmaw)
@@ -1408,6 +1434,7 @@ ns.Filger_Spells = {
 			{ spellID = 92053, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Stolen Power
 			{ spellID = 80627, size = 72, unitId = "player", caster = "all", filter = "BUFF" },
+
 
 		-- Throne of Four Winds
 			-- Wind Chill / Windkühle (Conclave of Wind)
@@ -1456,6 +1483,8 @@ ns.Filger_Spells = {
 			{ spellID = 99262, size = 72, unitId = "player", caster = "all", filter = "BUFF" },
 			-- Vital Flame (Baleroc)
 			{ spellID = 99263, size = 72, unitId = "player", caster = "all", filter = "BUFF" },
+			-- Countdown
+			{ spellID = 99516, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Searing Seeds (Majordomo Staghelm)
 			{ spellID = 98450, size = 72, unitId = "player", caster = "all", filter = "DEBUFF" },
 			-- Burning Orbs (Majordomo Staghelm)
