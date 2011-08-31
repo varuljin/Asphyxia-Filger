@@ -527,6 +527,8 @@ ns.Filger_Spells = {
 			{ spellID = 84963, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 			-- Avenging Wrath
 			{ spellID = 31884, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
+			-- Sacred Duty
+			{ spellID = 85433, size = 36, unitId = "player", caster = "player", filter = "BUFF" },
 		},
 		{
 			Name = "T_DEBUFF_ICON",
